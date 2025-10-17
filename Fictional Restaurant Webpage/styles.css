@@ -1,0 +1,154 @@
+/* ===== General ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Smooth transitions for buttons and links */
+a, .btn {
+  transition: all 0.3s ease;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                    url('./assets/image/back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.hero .btn-primary {
+  background-color: #e63946; /* Rouge appétissant */
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+}
+
+.hero .btn-primary:hover {
+  background-color: #d62828;
+  transform: scale(1.05);
+}
+
+/* ===== Menu Section ===== */
+#menu {
+  background-color: #fff8f0; /* couleur douce, chaleureuse */
+  padding: 60px 0;
+}
+
+#menu h2 {
+  color: #d62828;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+.menu-item img {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.menu-item h5 {
+  color: #e63946; /* accent rouge pour appétit */
+  margin-top: 15px;
+}
+
+.menu-item p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.menu-item strong {
+  font-size: 1.1rem;
+  color: #222;
+}
+
+/* ===== About Section ===== */
+#about {
+  background-color: #fef6f0;
+  padding: 60px 0;
+}
+
+#about h2 {
+  color: #d62828;
+  margin-bottom: 20px;
+}
+
+#about p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* ===== Contact Section ===== */
+#contact {
+  background-color: #fff8f0;
+  padding: 60px 0;
+}
+
+#contact h2 {
+  color: #d62828;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#contact .btn-primary {
+  background-color: #e63946;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+}
+
+#contact .btn-primary:hover {
+  background-color: #d62828;
+  transform: scale(1.05);
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  color: #e63946;
+  text-decoration: none;
+}
