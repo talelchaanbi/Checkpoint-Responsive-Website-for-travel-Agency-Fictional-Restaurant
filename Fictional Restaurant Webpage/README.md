@@ -41,19 +41,3 @@ Ce projet présente une **landing page moderne et responsive** pour un **restaur
 - Grille flexible (`col-sm-6 col-md-3`) pour les plats.
 - Texte et images adaptés pour petits écrans.
 
----
-
-## 📷 Captures d’écran
-- **Desktop view** : `screenshots/desktop.png`
-- **Mobile view** : `screenshots/mobile.png`
-
----
-
-## 🚀 Comment exécuter le projet
-1. Télécharger ou cloner le dépôt.
-2. Ouvrir `index.html` dans un navigateur.
-3. Vérifier que le dossier `assets/` contient les images nécessaires.
-
----
-
-> Projet réalisé dans le cadre du Bootcamp *Responsive Web Design with CSS Libraries (Bootstrap)*.
